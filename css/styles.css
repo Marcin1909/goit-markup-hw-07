@@ -1,1 +1,16 @@
-h1 {background-color: greenyellow;}
+:root {
+    --first-color-text: green;
+    --second-color-text: blue
+}
+
+
+
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background-color: white;
+}
+.highlight {color: #4D5AE5;}
