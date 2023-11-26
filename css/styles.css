@@ -25,7 +25,7 @@ header{
 
 }
 .highlight {color: var(--navy-blue);}
-.logo {font-family: Raleway;
+.logo {font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -40,7 +40,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--navy-blue);}
 .list-first:hover, 
-.list-first:focus {color: var(--ocean);}
+.adres {font-style: normal;}
 .first-section {background-color: var(--navy-blue);
     color: var(var(--white));}
 h1 {color: var(--white);}
