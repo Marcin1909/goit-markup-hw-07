@@ -18,23 +18,34 @@ body {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
     line-height: 1.6;
+    background-color: #FFFFFF;
 }
 header{
     background-color: var(--white);
 
 }
-.highlight {color: var(--iris);}
-.logo {font-size: 16px;
-text-decoration: none;
+.highlight {color: var(--navy-blue);}
+.logo {font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
 text-transform: uppercase;}
-
+.link {text-decoration: none;}
+.list {list-style: none;}
+.list-first {font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);}
+.list-first:hover, 
+.list-first:focus {color: var(--ocean);}
 .first-section {background-color: var(--navy-blue);
     color: var(var(--white));}
 h1 {color: var(--white);}
-a {text-decoration: none;
-color: var(--slate);}
+
 button:hover, button:focus {background-color: var(--ocean);}
-a:hover, a:focus {color: var(--iris);}
 .page-footer {background-color: var(--navy-blue);
 color: var(--white);}
 .footer-text {color: var(--cloud);}
