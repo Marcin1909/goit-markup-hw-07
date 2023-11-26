@@ -24,7 +24,7 @@ header{
 
 }
 .highlight {color: var(--navy-blue);}
-.logo {font-family:'Raleway' sans-serif;
+.logo {font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -53,7 +53,7 @@ color: var(--slate);}
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--white);}
-.button-title {font-family:'Roboto' sans-serif;
+.button-title {font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -74,7 +74,7 @@ text-transform: capitalize;
 color: var(--navy-blue);}
 .fourth-section {background-color: var(--cloud);}
 .four-list-item {background-color: var(--white);}
-.logo-footer {font-family:'Raleway' sans-serif;
+.logo-footer {font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -85,8 +85,7 @@ color: var(--iris);}
 .footer-text {line-height: 1.5;
 color: var(--cloud);
 letter-spacing: 0.02em;}
-.buttons {font-family:'Roboto' sans-serif;
-font-weight: 500;
+.buttons {font-family: 'Roboto', sans-serif;
  font-size: 16px;
  line-height: 1.5;
 letter-spacing: 0.04em;
