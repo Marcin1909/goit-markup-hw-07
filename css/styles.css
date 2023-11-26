@@ -10,12 +10,13 @@
 }
 
 button {color:var(--white);
-background-color: var(--iris);}
+background-color: var(--iris);
+cursor: pointer;}
 
 
 body {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: var(--slate);
     line-height: 1.6;
 }
 header{
@@ -27,17 +28,29 @@ header{
 text-decoration: none;
 text-transform: uppercase;}
 
-.first-section {background-color: var(--black);}
+.first-section {background-color: var(--navy-blue);
+    color: var(var(--white));}
+h1 {color: var(--white);}
 a {text-decoration: none;
 color: var(--slate);}
 button:hover, button:focus {background-color: var(--ocean);}
+a:hover, a:focus {color: var(--iris);}
+.page-footer {background-color: var(--navy-blue);
+color: var(--white);}
+.footer-text {color: var(--cloud);}
 
-.page-footer {background-color: var(--black);}
-
-h3 {color: var(--SLATE, #434455);
+h3 {color: var(--navy-blue, #434455);
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;}
+
+    p {color: var(--slate, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;}
