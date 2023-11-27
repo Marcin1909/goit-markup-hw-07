@@ -7,10 +7,13 @@
     --black: #000;
     --white: #fff;
 }
+button {background-color: var(--iris);
+color: var(--white);
+cursor: pointer;}
 
 
 
-body {font-family: 'Raleway', 'Roboto', sans-serif;
+body {font-family:'Roboto', sans-serif;
     color: var(--slate);
     line-height: 1.6;
     background-color: #FFFFFF;
