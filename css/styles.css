@@ -8,9 +8,6 @@
     --white: #fff;
 }
 
-button {color:var(--white);
-background-color: var(--iris);
-cursor: pointer;}
 
 
 body {font-family: 'Raleway', 'Roboto', sans-serif;
@@ -88,6 +85,7 @@ color: var(--iris);}
 color: var(--cloud);
 letter-spacing: 0.02em;}
 .buttons {font-family: 'Roboto', sans-serif;
+font-weight: 500;
  font-size: 16px;
  line-height: 1.5;
 letter-spacing: 0.04em;
