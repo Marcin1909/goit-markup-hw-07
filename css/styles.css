@@ -239,7 +239,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-display: inline-block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -305,7 +305,7 @@ display: inline-block;
   row-gap: 48px;
 }
 
-.image-item {
+.image-item-list {
   width: calc((100% - 48px) / 3);
 }
 
