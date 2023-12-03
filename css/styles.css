@@ -79,6 +79,7 @@ ul {
 
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 
 .list {
@@ -156,7 +157,7 @@ ul {
   color: var(--white);
   cursor: pointer;
   display: block;
-  min-width: 196px;
+  min-width: 169px;
   height: 56px;
 }
 
@@ -309,4 +310,5 @@ ul {
 .photo-caption-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
