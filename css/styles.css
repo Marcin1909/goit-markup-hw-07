@@ -50,6 +50,10 @@ ul {
   margin: 0 auto;
 }
 
+.first-header {
+  display: flex;
+}
+
 .head {
   border-bottom: 1px solid #e7e9fc;
 }
