@@ -47,10 +47,12 @@ ul {
 
 .first-header {
   display: flex;
+  max-height: 72px;
 }
 
 .head {
   border-bottom: 1px solid #e7e9fc;
+
 }
 
 .highlight {
@@ -121,6 +123,8 @@ ul {
   display: flex;
   gap: 40px;
 align-items: center;
+margin-left: 300px;
+
 }
 
 .contact {
@@ -138,15 +142,16 @@ align-items: center;
   background-color: var(--navy-blue);
   color: var(--white);
   padding: 188px 0;
+  display: flex;
 }
 
 .title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
+  padding-bottom: 48px;
 }
 
 .button-title {
@@ -161,6 +166,7 @@ align-items: center;
   display: block;
   min-width: 169px;
   height: 56px;
+  margin-left: 155px;
 }
 
 .button-title:hover,
@@ -170,6 +176,13 @@ align-items: center;
 
 .second {
   padding: 120px 0;
+}
+
+.list-second-item-element {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .list-second {
@@ -225,6 +238,7 @@ align-items: center;
 .four-list-item {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .photo-caption {
@@ -251,6 +265,7 @@ align-items: center;
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .buttons {
