@@ -205,7 +205,6 @@ margin-left: 300px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .list-second-item {
@@ -293,7 +292,6 @@ margin-left: 300px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  text-align: center;
 }
 
 .page-footer {
