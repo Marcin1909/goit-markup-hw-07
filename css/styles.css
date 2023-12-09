@@ -187,7 +187,23 @@ margin-left: 300px;
 
 .list-second {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
+}
+
+
+.icon {
+  padding-top: 24px;
+  padding-bottom: 24px;
+ background-color: var(--cloud);
+ 
+.icon > svg {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: auto;
+ }
+
 }
 
 .list-item-first {
@@ -205,6 +221,16 @@ margin-left: 300px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+}
+
+.list-item-header-element {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .list-second-item {
