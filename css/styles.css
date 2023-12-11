@@ -47,12 +47,12 @@ ul {
 .first-header {
   display: flex;
   max-height: 72px;
+  box-shadow: 0px 2px 1px, rgba(46, 47, 66, 0.08), 0px 1px 1px,
+    rgba(46, 47, 66, 0.16), 0px 1px 6px, rgba(46, 47, 66, 0.08);
 }
 
 .head {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px, rgba(46, 47, 66, 0.08), 0px 1px 1px,
-    rgba(46, 47, 66, 0.16), 0px 1px 6px, rgba(46, 47, 66, 0.08);
 }
 
 .highlight {
@@ -149,7 +149,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-widht: 1440px;
+  max-width: 1440px;
 }
 
 .title {
@@ -355,7 +355,7 @@ ul {
 }
 
 .footer-1 {
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .footers-1 {
@@ -378,6 +378,7 @@ ul {
 
 .footer-list-item {
   height: 40px;
+  width: 40px;
 }
 
 .footer-list-items {
