@@ -79,6 +79,13 @@ ul {
   margin-right: 76px;
 }
 
+.active-link::after {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+background: var(--OCEAN, #404BBF);
+}
+
 .link {
   text-decoration: none;
   display: inline-block;
