@@ -68,6 +68,7 @@ ul {
 .list-item {
   padding: 24px 0;
   position: relative;
+  color: var(--ocean);
 }
 
 .logo {
@@ -81,9 +82,6 @@ ul {
   margin-right: 76px;
 }
 
-.active-link {
-  color: var(--ocean);
-}
 
 .active-link::after {
   width: 100%;
