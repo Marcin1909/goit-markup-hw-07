@@ -71,7 +71,6 @@ ul {
 }
 
 .list-item {
-  padding: 24px 0
   color: var(--ocean);
 }
 
@@ -98,7 +97,8 @@ ul {
   position: absolute;
   content: "";
   left: 0;
-  bottom: -12px;
+  bottom: -1px;
+  margin-bottom: -10px;
 }
 
 .link {
@@ -132,6 +132,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .list-first:hover,
