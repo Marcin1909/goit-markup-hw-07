@@ -643,7 +643,14 @@ ul {
  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  border-radius: 4px;
  color: var(--white);
- gap: 24px;
+}
+
+.form-item {
+  gap: 24px;
+}
+
+.footer-form {
+  margin-left: 80px;
 }
 
 .input::placeholder {
@@ -665,6 +672,7 @@ color: var(--white);
 cursor: pointer;
 background-color: var(--iris);
 border: none;
+margin-left: 24px;
 }
 
 .form-icon {
@@ -676,7 +684,7 @@ border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 
