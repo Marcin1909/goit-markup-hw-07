@@ -464,6 +464,7 @@ ul {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px;
 }
 
 .is-hidden {
@@ -631,7 +632,7 @@ ul {
   display: flex;
 }
 
-.input {
+.input-form {
  width: 264px;
  height: 40px;
  border: 1px solid var(--white);
@@ -643,10 +644,7 @@ ul {
  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  border-radius: 4px;
  color: var(--white);
-}
-
-.form-item {
-  gap: 24px;
+ gap: 24px;
 }
 
 .footer-form {
@@ -686,10 +684,6 @@ margin-left: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
-}
-
-.modal-window {
-  padding: 72px 24px 24px;
 }
 
 .modal-text {
