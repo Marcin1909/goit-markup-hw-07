@@ -785,7 +785,7 @@ color: var(--grey);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  outline: transparent;
 }
 
 .input-two:checked ~ .third-label .third-form-span {
