@@ -785,17 +785,15 @@ color: var(--grey);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  outline: transparent;
+  fill: transparent;
 }
 
 .input-two:checked ~ .third-label .third-form-span {
   background-color: var(--ocean);
   border: none;
-}
-
-.input-two:checked ~ .third-label .third-form-span .icon-two {
   fill: var(--cloud);
 }
+
 
 .form-link {
   color: var(--iris);
