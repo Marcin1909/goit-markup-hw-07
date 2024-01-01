@@ -507,11 +507,15 @@ ul {
 .close-button:focus {
   background-color: var(--ocean);
   border: none;
-  fill: var(--white);
 }
 
 .btn-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-button:hover .btn-close,
+.close-button:focus .btn-close {
+  fill: var(--white);
 }
 
 .buttons {
@@ -775,6 +779,7 @@ color: var(--grey);
 }
 
 .third-form-span {
+  position: relative;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -799,9 +804,9 @@ color: var(--grey);
 
 .icon-two {
   position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: auto;
+  top: 0;
+  transform: translateY(50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -819,6 +824,9 @@ color: var(--grey);
 
 .icon-checked {
   display: none;
+  min-width: 30px;
+  min-height: 10px;
+  left: auto;
 }
 
 .form-button {
