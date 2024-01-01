@@ -805,20 +805,20 @@ color: var(--grey);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.unchecked {
-  display: block;
-}
-
-.checked {
+.input-two:checked ~ .third-label .icon-unchecked {
   display: none;
 }
 
-.icon-two:focus .unchecked {
-  display: none;
+.input-two:checked ~ .third-label .icon-checked {
+  display: block;
 }
 
-.icon-two:focus .checked {
+.icon-unchecked {
   display: block;
+}
+
+.icon-checked {
+  display: none;
 }
 
 .form-button {
