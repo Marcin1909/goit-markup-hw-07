@@ -99,6 +99,10 @@ ul {
   bottom: -1px;
 }
 
+.active-link:visited {
+  color: var(--navy-blue);
+}
+
 .link {
   text-decoration: none;
   display: inline-block;
@@ -706,7 +710,7 @@ margin-left: 24px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--grey);
+  color: var(--navy-blue);
   display: block;
   margin-bottom: 4px;
 }
