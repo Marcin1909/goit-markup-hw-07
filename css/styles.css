@@ -49,6 +49,7 @@ ul {
 }
 
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -181,7 +182,9 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
   max-width: 1440px;
+
 }
 
 .title {
@@ -874,6 +877,18 @@ color: var(--grey);
 }
 /*responsive*/
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2ddpx) {
+  .first-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+     url("../images/people-office@2x.jpg");
+  }
+}
+
 @media (min-width: 480px) and (max-width: 767px) {
 .first-header > .navi .list-layout,
 .first-header .adres {
@@ -897,6 +912,7 @@ color: var(--grey);
 .container {
   width: 100%;
   max-width: 767px;
+  margin: 0 auto;
 }
 
 .third {
