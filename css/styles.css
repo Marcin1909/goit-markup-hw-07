@@ -24,12 +24,6 @@ body {
   background-color: var(--white);
 }
 
-html, body {
-  width: 100vw;
-  min-width: 100%;
-  overflow-x: hidden;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -49,7 +43,6 @@ ul {
 }
 
 .container {
-  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -74,7 +67,6 @@ ul {
 .navi {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .list-item {
@@ -182,9 +174,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
   max-width: 1440px;
-
 }
 
 .title {
@@ -872,202 +862,54 @@ color: var(--grey);
   background-color: var(--ocean)
 }
 
-.js-menu-container {
-  display: none;
-}
-/*responsive*/
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2ddpx) {
-  .first-section {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-     url("../images/people-office@2x.jpg");
-  }
+html, body {
+  width: 100%;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
-.first-header > .navi .list-layout,
-.first-header .adres {
+.first-header {
   display: none;
 }
 
-.js-menu-container.is-open {
-  display: block;
+.mobile-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.menu-mobile.is-open{
-  min-width: auto;
-  min-height: auto;
-}
-
-.js-close-menu,
-.js-open-menu {
+.mobile-menu button {
   background-color: transparent;
 }
 
-.container {
-  width: 100%;
-  max-width: 767px;
-  margin: 0 auto;
-}
-
-.third {
-  display: none;
-} 
-
-.icon{
+.js-menu-container {
   display: none;
 }
 
-.navi {
-  width: 100%;
-  justify-content: space-between;
-}
-
-.menu-mobile.is-open.is-open .navi {
-padding-bottom: 264px;
-}
-
-.menu-mobile.is-open .social-media-list {
-  justify-content: space-between;
-}
-
-.menu-mobile.is-open {
+.js-menu-container .is-open {
   display: flex;
-  flex-flow: column nowrap;
-  background-color: var(--white);
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
-  height: 100vh;
-}
-
-.menu-mobile.is-open .mobile-menu-container {
-  display: flex;
+  right: 0;
+  background-color: var(--white);
   flex-flow: column nowrap;
-  justify-content: space-between;
-  flex-grow: 1;
 }
 
-.menu-mobile.is-open .btn-container {
+/*responsive*/
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+.first-header {
   display: flex;
-  flex-flow: row-reverse nowrap;
-  padding-right: 24px;
-  padding-top: 24px;
 }
 
-.menu-mobile.is-open .navi .list-first {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 700;
-  padding: 0;
-}
-
-.menu-mobile.is-open .list{
-  flex-direction: column;
-  padding-left: 40px;
-}
-
-.menu-mobile.is-open .link::after {
+.mobile-menu {
   display: none;
 }
-.menu-mobile.is-open .active-link {
-  color: var(--ocean);
-}
-
-.menu-mobile.is-open .mail-link {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.menu-mobile.is-open .phone-number {
-  font-size: 36px;
-  line-height: 40px;
-  color: var(--iris);
-  letter-spacing: 0.72px;
-}
-
-.menu-mobile.is-open .adres-item:nth-child(1) {
-order: 2;
-}
-
-.menu-mobile.is-open .adres-item:nth-child(2) {
-order: 1;
-}
-
-.first-section {
- text-align: center;
-}
-
-.list-second {
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-.menu-mobile.is-open .social-media {
-  justify-content: space-between;
-  padding: 48px 60px 40px 40px;
-}
-
-.list-item-header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-align: center;
-}
-
-.list-second-item-element {
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.list-item-first {
-  min-width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.customer {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.customer-list {
-  flex-basis: calc((50% - 8px)/2);
-}
-}
-
-@media (min-width: 768px) and (max-width: 1157px) {
-  .js-open-menu {
-    display: none;
-  }
-
-  .third {
-    display: none;
-  } 
-  
-  .icon{
-    display: none;
-  }
-
-  .list-second {
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 0, 32px;
-  }
-
 }
 
 @media (min-width: 1158px) {
-.js-open-menu {
-  display: none;
-}
+
 }
