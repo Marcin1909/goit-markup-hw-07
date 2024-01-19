@@ -962,7 +962,6 @@ display: none;
   flex-direction: row-reverse;
 }
 
-
 /*responsive*/
 
 @media (min-device-pixel-ratio: 2),
@@ -975,10 +974,12 @@ display: none;
     ),
     url("../images/people-office@2x.jpg");
 }
+  }
 
-@media (min-width: 480px) {
+  @media (min-width: 480px) {
 
-}
+  }
+
 
 @media (min-width: 768px) {
   .js-menu-container {
